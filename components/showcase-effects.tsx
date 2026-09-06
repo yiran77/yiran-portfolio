@@ -62,6 +62,7 @@ export function AmbientVideo({ item, className = '' }: { item: VideoWork; classN
       className={className}
       src={ready ? item.preview : undefined}
       poster={item.poster}
+      autoPlay={ready}
       muted
       loop
       playsInline
